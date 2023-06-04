@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="faviocn_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="faviocn_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="faviocn_io/favicon-16x16.png">
+<link rel="manifest" href="faviocn_io/site.webmanifest">
+<link rel="mask-icon" href="faviocn_io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/base.css" /> 
+    <title>Mella Marketing</title>
+  </head>
+
+  <body>
+    
+    <div id="my-carousel" class="carousel slide header" data-interval="5000" data-ride="carousel" >
+      <!-- <nav class="navbar fixed-top navbar-expand-lg" id="home">
+        <div class="container">
+          <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
+            <span class="bar1"></span> <span class="bar2"></span>
+            <span class="bar3"></span>
+          </button>
+          <div id="my-nav w-50 h-50" class="collapse navbar-collapse">
+            <ul class="navbar-nav float-left mr-auto">
+              <li class="nav-item w-75 h-75">
+                <a class="nav-link w-25 h-25" href="#"><img src="assets/img/mella white.png" alt="mellamarketing"/></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav float-right menu-links">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#fh5co-about-us" name="timeline"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#fh5co-clients">Our clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#fh5co-work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#fh5co-contact-us">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="#">
+            <img src="assets/img/mellalogo.png" style="margin-left: 100%;" alt="Logo">
+          </a>
+        </div>
+        <button class="navbar-toggle">
+          <span class="navbar-toggle-icon"></span>
+        </button>
+        <ul class="navbar-menu " style="margin-right: 10%; font-weight: 100;" >
+          <li class="navbar-item"><a href="#home">HOME</a></li>
+          <li class="navbar-item"><a href="#fh5co-about-us">ABOUT</a></li>
+          <li class="navbar-item"><a href="#fh5co-services">SERVICES</a></li>
+          <li class="navbar-item"><a href="#fh5co-contact-us">CONTACT</a></li>
+        </ul>
+      </nav>
+      
+      <style>
+        .navbar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: rgba(0, 0, 0, 0.882);
+          padding: 10px 20px;
+        }
+        
+        .navbar-logo img {
+          width: 100px;
+          height: 50px;
+        }
+      
+        .navbar-menu {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          align-items: center;
+        }
+        a{
+          color: #fff;
+          
+        }
+        a.hover{
+          color:#dca900 ;
+        }
+        .navbar-item {
+          margin-right: 50px;
+          
+        }
+      
+        .navbar-item:last-child {
+          margin-right: 0;
+        }
+      
+        /* Media query for small screens */
+        @media only screen and (max-width: 767px) {
+          .navbar-menu {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: transparent;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+          }
+      
+          .navbar-menu.active {
+            display: flex;
+            background-color: #dca900;
+          }
+      
+          .navbar-item {
+            margin: 10px 0;
+          }
+      
+          .navbar-toggle {
+            display: block;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            height: 30px;
+            width: 30px;
+            position: relative;
+            z-index: 2;
+          }
+      
+          .navbar-toggle:focus {
+            outline: none;
+          }
+      
+          .navbar-toggle-icon {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+      
+          .navbar-toggle-icon::before,
+          .navbar-toggle-icon::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            left: 0;
+          }
+      
+          .navbar-toggle-icon::before {
+            transform: translateY(-6px);
+          }
+      
+          .navbar-toggle-icon::after {
+            transform: translateY(6px);
+          }
+        }
+      </style>
+      
+      <script>
+        const navbarToggle = document.querySelector(".navbar-toggle");
+        const navbarMenu = document.querySelector(".navbar-menu");
+      
+        navbarToggle.addEventListener("click", () => {
+          navbarMenu.classList.toggle("active");
+          document.body.classList.toggle("menu-active");
+        });
+      </script>
+      
+    </div>
+       
+  
+    <div id="my-carousel" class="carousel slide header" data-interval="5000" data-ride="carousel" >
+      
+          
+      <div class="fh5co-carousel-inner">
+        <div class="carousel-item active">
+          <svg width="100%" viewBox="0 0 1925 1350">
+            <path
+              fill-rule="evenodd"
+              opacity="0.729"
+              fill="rgb(0, 0, 0)"
+              d="M0.000,1267.999 L663.000,1264.999 L1396.000,0.000 L1518.000,1264.999 L1923.000,0.000 L0.000,0.000 L0.000,1267.999 Z"
+            />
+          </svg>
+          <img
+            class="d-block w-100 home-bg"
+            alt="home-bg"
+            src="assets/img/home-banner.jpg"
+          />
+          <div class="carousel-caption d-md-block">
+            <p class="frst-hrd">HI, There</p>
+            <h2>መላዎች ነን</h2>
+            <h2>Mella marketing</h2>
+            <p>We are just Like our name, We have a solution for your business.
+              Grow your online presence with us.</p>
+              <p></p>
+            <a
+              href="tel:+251935179008"
+              target="_blank"
+              class="btn btn-outline-light btn-lg custom-btn"
+              >CALL</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg width="100%" height="1268px"> -->
+            <path
+              fill-rule="evenodd"
+              opacity="0.729"
+              fill="rgb(0, 0, 0)"
+              d="M0.000,1267.999 L663.000,1264.999 L1396.000,0.000 L1518.000,1264.999 L1923.000,0.000 L0.000,0.000 L0.000,1267.999 Z"
+            />
+          </svg>
+          <img
+            class="d-block w-100 home-bg"
+            alt="home-bg"
+            src="assets/img/home-banner.jpg"
+          />
+          <div class="carousel-caption d-md-block">
+            <p class="frst-hrd">HI,There</p>
+            <h2>መላዎች ነን</h2>
+            <h2>Mella marketing</h2>
+            <p>
+              Mellais a digital marketing firm set to change the digital scene
+              in Ethiopia created by a team of digitally skilled individuals
+              that are constantly learning and developing as the industry grows.
+            </p>
+            <a href="tel:+251935179008" class="btn btn-outline-light btn-lg custom-btn"
+              >CALL</a
+            >
+          </div>
+        </div>
+      </div>
+      <a href="" class="play-img">
+        <img src="assets/img/play.png" alt="play icon" style="rotate: 30deg;"/>
+      </a>
+    </div>
+    <div class="container-fluid fh5co-about-us" id="fh5co-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="about-img">
+              <div class="for-box"></div>
+              <img
+                src="assets/img/mella black.png"
+                alt="about leader"
+                class="w-100"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 pl-5">
+            <h4 class="hdr-line">WHO ARE WE?</h4>
+            <h2>ABOUT</h2>
+            <h3>Welcome To Mella</h3>
+            <p>
+              we are a group of incredibly talented marketing folks, yet, we
+              look at ourselves more as an investment firm than a digital
+              marketing agency. We are under no illusion as to our single and
+              sole purpose for existing.
+            </p>
+            <p>
+              Mella was “born digital” and has been a pacesetter in the digital
+              marketing space ever since, constantly increasing the market
+              share, visibility, and revenue for brands in Ethiopia.
+            </p>
+            <a class="btn btn-outline-light btn-lg custom-btn"
+              >መላዎች ነን</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid fh5co-services" id="fh5co-services">
+      <div class="container">
+        <h4 class="hdr-line">What We Do</h4>
+        <h2 class="hd-48 text-center mb-5">Services</h2>
+        <div class="owl-carousel owl-carousel2 owl-theme">
+          <div>
+            <div class="row ml-0 mr-0">
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella7.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">SOCIAL MEDIA MARKETING</h5>
+                    <p>
+                      It is the use of social media platforms to promote your brand, products, or services. It involves creating and sharing content on social media channels such as Facebook, Instagram and Tiktok to engage with your audience and build brand awareness. By utilizing social media marketing, you can grow your online presence and reach a larger audience.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">SOCIAL MEDIA AD MANAGEMENT</h5>
+                    <p>
+                      It is creating and running paid advertising campaigns on social media platforms such as Facebook and Instagram. Social media Ad management a critical component of any social media marketing strategy, It allows businesses to reach a wider audience, Increase brand awareness and drive traffic and sales.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella1.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">CONTENT CREATION</h5>
+                    <p>
+                      It is the process of planning and creating contents specifically designed for social media platforms. It includes photography , videography , graphic design and motion graphics. The goal is to create valuable and relevant contents for your target audience , to inspire engagement and to achieve social media marketing  goals.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span class="icons1"><img src="assets/img/icons/mella2.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">CONSULTANCY</h5>
+                    <p>
+                      It is a service that provides expert advice and guidance on using social media platforms to promote your business. It involves analyzing your social media presence, developing a customized strategy, and offering guidance on content creation, audience engagement, and advertising campaigns.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row ml-0 mr-0">
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella3.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">WEB/APP DEVELOPMENT</h5>
+                    <p>
+                      It is creating and maintaining websites and software application. It involves designing , coding , testing and deploying web & mobile apps  that meets the specific needs of business or individuals.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella4.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">COMMERCIAL VIDEO</h5>
+                    <p>
+                      It is a type of video content that is created for the purpose of promoting a product, service, or brand. used in marketing campaigns across various platforms such as television, social media, and online advertising.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span  class="icons1"><img src="assets/img/icons/mella5.svg" alt="mella marketing"></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">INFLUENCER MARKETING</h5>
+                    <p>
+                      It is a type of marketing in which brands partner with social media influencers to promote their products or services to their followers. The idea is to leverage the influencers audience and credibility to reach a wider audience and drive sales for the brand.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media">
+                  <div class="bg-box">
+                    <span class="icons1"><img src="assets/img/icons/mella6.svg" alt="" ></span>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="mt-0">CAMPAIGN MANAGEMENT</h5>
+                    <p>
+                      It is the process of planning, executing, tracking, and analyzing marketing campaigns. It involves creating a strategy that aligns with the organization's overall goals and objectives, identifying target audiences, selecting appropriate channels and tactics, creating and distributing content, monitoring performance metrics, and making adjustments as needed to improve campaign effectiveness.
+                    </p>
+                    <a href="#">Read More -</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid fh5co-clients" id="fh5co-clients">
+      <div class="container">
+        <h4 class="hdr-line text-center">Clients feedback</h4>
+        <h2 class="hd-48 text-center mb-5">OUR CLIENTS</h2>
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-icon">
+                  <img src="assets/img/quote.png" alt="quote icon" />
+                </div>
+                <div class="quote-content">
+                  <p>
+                    “Seleme Ethiopia - Mell Mella is a very professional and
+                    outstanding digital marketing service provider in Ethiopia,
+                    we were happy with the work they have done and our social
+                    media presence have grown exponentially ever since.”
+                  </p>
+                  <b>- Meron Teferi </b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-icon">
+                  <img src="assets/img/quote.png" alt="quote icon" />
+                </div>
+                <div class="quote-content">
+                  <p>
+                    “Etstride educational consultancy - Mella is a pacesetter
+                    for the digital world in Ethiopia and we appreciate the help
+                    they have given us so far.”
+                  </p>
+                  <b>- Nazrawit G/silasie</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-icon">
+                  <img src="assets/img/quote.png" alt="quote icon" />
+                </div>
+                <div class="quote-content">
+                  <p>
+                    “ RestoreTech - Mella is one of the very few digital
+                    marketing agencies that meet our needs and aspire to learn
+                    and come up with creative ways of marketing our products and
+                    services. We appreciate the continued effort and thank you.”
+                  </p>
+                  <b>- Maya Lessanu </b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-icon">
+                  <img src="assets/img/quote.png" alt="quote icon" />
+                </div>
+                <div class="quote-content">
+                  <p>
+                    “Charis Ethiopia - Mella is full of energetic and
+                    professional youngsters that are dedicated to their clients
+                    success and charis Ethiopia publishers is Happy with the
+                    service they are offering us.”
+                  </p>
+                  <b>- Shubham Choudhary</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-icon">
+                  <img src="assets/img/quote.png" alt="quote icon" />
+                </div>
+                <div class="quote-content">
+                  <p>
+                    “Ozone Technologies - Mella is a very professional and
+                    outstanding digital marketing service provider in Ethiopia,
+                    we were happy with the work they have done and our social
+                    media presence have grown exponentially ever since.”
+                  </p>
+                  <b>- Mikiyas Godana</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid fh5co-work" id="fh5co-work">
+      
+
+        	<!-- stats
+   	================================================== -->
+   	<section id="stats" class="count-up">
+
+			<div class="container">
+        <h4 class="hdr-line text-center">My Works</h4>
+        <h2 class="hd-48 text-center mb-5">WORKS</h2>
+        <div class="p-40px-tb border-top-1 border-bottom-1 border-color-gray">
+            <div class="container">
+                <div class="owl-carousel owl-loaded owl-drag">
+                  <div class="moves">                   
+                    <div class="owl-stage-outer">
+                      <div class="owl-stage" style="transform: translate3d(-1080x, 0px, 0px); transition: all 0.01s ease 0s; width: 1px;">
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/1.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 300px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/2.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/3.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/4.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/5.jpeg" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/6.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/7.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/8.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/9.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/10.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                        <div class="owl-item cloned" style="width: 268px; margin-right: 100px;">
+                          <img class="p8" id="brimg" src="assets/img/11.png" title="Mella marketing" alt="Mella marketing">
+                        </div>
+                                         
+                      </div>
+                    </div>
+                  </div>      
+                </div>
+              </div>
+
+
+		</section> <!-- /stats -->           
+  </div>
+    </div>
+    <div class="container-fluid fh5co-post" id="fh5co-post">
+      <div class="container">
+        <h4 class="hdr-line text-center">Whom we working with</h4>
+        <h2 class="hd-48 text-center mb-5">PARTNERS</h2>
+        <div class="row">
+          <div class="owl-carousel owl-carousel3 owl-theme">
+            <div>
+              <div class="card">
+                <div>
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/img/ozone.png"
+                      alt=""
+                  /></a>
+                  <span>Ozone Technologies</span>
+                </div>
+                <div class="card-body">
+                  
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <div>
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/img/4.png"
+                      alt=""
+                  /></a>
+                  <span>Mesob Digital</span>
+                </div>
+                <div class="card-body">
+                  
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <div>
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="assets/img/mella black.png"
+                      alt=""
+                  /></a>
+                  <span>Mella Marketing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>     
+<section>
+  
+  <div class="responsive-container-block outer-container bg" >
+    <div class="container">
+      <h4 class="hdr-line" style="font-size: 50px;color: #fff;">OUR TEAM </h4>
+      <h2 style="font-size: 50px; margin-right: 10%;" >Members</h2>
+<div class="responsive-container-block inner-container">
+
+<div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-8 team-cards-outer-container">
+  
+  <div class="responsive-container-block team-cards-inner-container">
+    <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+      
+      <div class="card1">
+        <div class="img-box">
+          <img class="person-img" src="assets/img/sami.JPG">
+        </div>
+        <div class="card-content-box">
+          <p class="text-blk person-name">
+            SAMUEL MEKONEN
+          </p>
+          <p class="text-blk person-info">
+            CEO & Founder
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+      <div class="card1">
+        <div class="img-box">
+          <img class="person-img" src="assets/img/fistum.png">
+        </div>
+        <div class="card-content-box">
+          <p class="text-blk person-name">
+            FITSUM G/SILASE
+          </p>
+          <p class="text-blk person-info">
+            content Marketer
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+      <div class="card1">
+        <div class="img-box">
+          <img class="person-img" src="assets/img/addis.jpg">
+        </div>
+        <div class="card-content-box">
+          <p class="text-blk person-name">
+            ADDIS HAJI
+          </p>
+          <p class="text-blk person-info">
+            Graphics Designer
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+      <div class="card1">
+        <div class="img-box">
+          <img class="person-img" src="assets/img/sirak.JPG">
+        </div>
+        <div class="card-content-box">
+          <p class="text-blk person-name">
+            SIRAK MAMUSHET
+          </p>
+          <p class="text-blk person-info">
+            Copy writer
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    
+  </div>
+</section>
+
+    <div class="container-fluid fh5co-contact-us" id="fh5co-contact-us" style="padding-top: 5%;">
+      <div class="container">
+        <h4 class="hdr-line text-center">Contact Us</h4>
+        <h2 class="hd-48 text-center mb-5">CONTACT</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="cnt-box">
+              <img src="assets/img/address.png" alt="address icon" />
+              <span> Address </span>
+              <p>Bole</p>
+              <p>addis ababa, Ethiopia</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cnt-box">
+              <img src="assets/img/email.png" alt="email icon" />
+              <span> Email </span>
+              <p>
+                <a href="mailto:contact@mellamarketing.et" class="card-link"
+                  >contact@mellamarketing.et</a>
+              </p>
+              <p><a href="mailto:contact@mellamarketing.et">support@mellamarketing.et</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cnt-box">
+              <img src="assets/img/phone.png" alt="phone icon" />
+              <span> Phone </span>
+              <p>
+                <a href="tel:+251 935 179 008" class="card-link"
+                  >+251 935 179 008</a
+                >
+              </p>
+              <p>
+                <a href="tel:+251 935 179 008" class="card-link"
+                  >+251 935 179 008</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid fh5co-footer" id="fh5co-footer">
+      <div class="bg-overly"></div>
+      <div class="container card-img-overlay">
+        <div class="row">
+          <div class="form-box">
+            <table class="table">
+              <tr>
+                <td>
+                  <input type="text" class="form-control" placeholder="Name" />
+                </td>
+                <td>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="form-control" placeholder="Tel" />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" class="text-center">
+                  <input
+                    type="submit"
+                    class="form-control d-inline-block"
+                    value="SEND MESSAGE"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row footer-social">
+          <div class="col-lg-12 text-center">
+            <ul class="navbar-nav d-inline-block social-links mx-auto nav-fill">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/mellamarketing1?mibextid=LQQJ4d"
+                  ><img src="assets/img/facebook.png" alt="facebook icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/mellamarketing?igshid=MzRlODBiNWFlZA=="
+                  ><img src="assets/img/instagram.png" alt="instagram icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><img src="assets/img/twitter.png" alt="twitter icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/mellamarketing1?mibextid=LQQJ4d"
+                  ><img src="assets/img/google-plus.png" alt="google-plus icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <p>
+              © 2023 Mella | Design by
+              <a href="#" target="_blank">Ozone Technonolgies</a> | All rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script> 
+      var owl = $('.moves');
+      owl.owlCarousel({
+         
+          loop:true,
+          margin:100,
+          autoplay:true,
+          autoplayTimeout:1000,
+          autoplayHoverPause:true,
+          nav: false,
+          dots: false,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5,
+              }
+          }
+      });
+  
+  
+     
+  </script>
+
+    <!-- START sticky footer -->
+    <script src="/demos/demoscript.js"></script>
+    <!-- END sticky footer -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-65003908-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-65003908-1");
+    </script>
+  </body>
+</html>
